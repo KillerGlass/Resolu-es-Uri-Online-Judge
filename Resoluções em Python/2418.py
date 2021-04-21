@@ -1,0 +1,6 @@
+l = (map(float,input().split()))
+l = list(l)
+maior = max(l)
+menor = min(l)
+l1 = sum(l) - (maior + menor)
+print("%.1f" % l1)
